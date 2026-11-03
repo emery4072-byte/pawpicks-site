@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PawPicks | Budget-friendly pet supplies from AliExpress</title>
+  <meta name="description" content="Hand-picked, budget-friendly pet supplies for dogs and cats, with honest notes on who each product suits.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <main class="wrap">
+    <div class="hero">
+      <h1>Happy pets, <span style="color:var(--accent)">small prices</span>.</h1>
+      <p data-tagline></p>
+      <a class="btn" href="#deals">See 11.11 deals</a>
+    </div>
+
+    <section>
+      <h2>Shop by pet</h2>
+      <p class="sub">Pick a category to see our current favorites.</p>
+      <div id="tiles" class="tiles"></div>
+    </section>
+
+    <section id="deals">
+      <h2>11.11 &amp; holiday deals</h2>
+      <div class="banner">
+        <strong>AliExpress's big 11.11 sale is on November 11.</strong>
+        Prices on the listings below can drop during the sale. Check shipping times too, especially if you're buying holiday gifts.
+      </div>
+      <div id="deals-grid" class="grid"></div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="products.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
